@@ -1,0 +1,386 @@
+.image-and-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.facebook,
+.instagram,
+.linkdin {
+  position: absolute;
+  left: 0;
+  line-height: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9.9px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.facebook {
+  top: 227px;
+  color: var(--primary-color-03);
+  width: 90px;
+}
+.instagram,
+.linkdin {
+  top: 332px;
+  width: 65px;
+}
+.instagram {
+  top: 97px;
+  width: 97px;
+}
+.social-text {
+  width: 9.9px;
+  height: 332px;
+  display: none;
+}
+.frame-child,
+.icon,
+.social-text {
+  position: relative;
+  z-index: 1;
+}
+.icon {
+  width: 400px;
+  height: 88.3px;
+  object-fit: cover;
+  max-width: 100%;
+}
+.frame-child {
+  width: 0;
+  height: 0;
+}
+.frame-wrapper {
+  height: 57px;
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 57px 0 0;
+  box-sizing: border-box;
+}
+.cloud-sync-icon-child {
+  width: 24.8px;
+  height: 2px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--primary-color-03);
+  z-index: 1;
+}
+.cloud-sync-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+}
+.cloud-sync-icon1 {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.welcome-label {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 48px 0 47.6px;
+}
+.welcome-to-our {
+  flex: 1;
+  position: relative;
+  line-height: 12px;
+  z-index: 1;
+}
+.frame-item {
+  width: 24.8px;
+  height: 2px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--primary-color-03);
+  z-index: 1;
+}
+.rectangle-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+}
+.welcome-to-our-parent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-5xs-9);
+}
+.cloud-sync-icon-parent,
+.welcome-label-parent,
+.welcome-to-our-parent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.welcome-label-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.cloud-sync-icon-parent {
+  width: 262px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-5xs-9);
+}
+.frame-group {
+  width: 607.2px;
+  height: 118px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.cloud-based-real-time,
+.powered-by-esme-media {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.cloud-based-real-time {
+  margin: 0;
+  align-self: stretch;
+  height: 144px;
+  font-size: inherit;
+  line-height: 90px;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.powered-by-esme-media {
+  height: 42px;
+  flex: 1;
+  line-height: 30px;
+  font-weight: 500;
+  max-width: 100%;
+}
+.cloud-based-real-time-esports-parent,
+.powered-by-esme-media-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.powered-by-esme-media-wrapper {
+  flex-direction: row;
+  padding: 0 67px 0 67.5px;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+}
+.cloud-based-real-time-esports-parent {
+  flex-direction: column;
+  gap: 35px;
+}
+.discover-more-button-child {
+  height: 37px;
+  width: 154px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--primary-color-03);
+  display: none;
+}
+.lets-connect {
+    background-color: #00caeb; /* Replace with the exact color code of the button */
+    color: white;
+    padding: 18px 10px 15px 8px;
+    border: none;
+    border-radius: 20px; /* Adjust as necessary for the desired roundness */
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px; /* Adjust as necessary for the desired size */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.lets-connect:hover {
+    background-color: #009ACD; /* Slightly darker shade for hover effect */
+}
+
+.discover-more-button,
+.discover-more-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.discover-more-button {
+  z-index: 1;
+}
+.discover-more-button-wrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 20px 0 21px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+}
+.frame-container,
+.video-box-inner {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-container {
+  width: 899.4px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 66px;
+}
+.video-box-inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.video-record-icon {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.video-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 131px;
+  max-width: 100%;
+}
+.video-record-button {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 26.5px;
+  box-sizing: border-box;
+  font-size: 64px;
+  color: var(--white-color);
+  font-family: var(--font-cuprum);
+}
+.frame-parent,
+.hero-section-inner,
+.video-record-button {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.hero-section-inner {
+  width: 1417.5px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--primary-color-03);
+  font-family: var(--font-poppins);
+}
+.hero-section,
+.hero-section-parent {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.hero-section {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 22px 18px;
+  box-sizing: border-box;
+  gap: 150.7px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray);
+  font-family: var(--font-poppins);
+}
+.hero-section-parent {
+  width: 100%;
+  background-color: #262731;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .video-box {
+    gap: 65px 131px;
+  }
+  .hero-section {
+    gap: 75px 150.7px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .cloud-based-real-time {
+    font-size: 51px;
+    line-height: 72px;
+  }
+  .powered-by-esme-media-wrapper {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .frame-container {
+    gap: 33px 66px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .video-box {
+    gap: 33px 131px;
+  }
+  .hero-section {
+    gap: 38px 150.7px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cloud-based-real-time {
+    font-size: 38px;
+    line-height: 54px;
+  }
+  .cloud-based-real-time-esports-parent {
+    gap: 17px 35px;
+  }
+  .frame-container {
+    gap: 16px 66px;
+  }
+  .video-box {
+    gap: 16px 131px;
+  }
+  .hero-section {
+    gap: 19px 150.7px;
+  }
+}
+

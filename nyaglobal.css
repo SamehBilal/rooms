@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  line-height: normal;
+  background-color: #262731;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-cuprum: Cuprum;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-mini: 15px;
+
+  /* Colors */
+  --white-color: #fff;
+  --primary-color-03: #00caeb;
+  --color-darkgray: #afafaf;
+
+  /* Gaps */
+  --gap-5xs-9: 7.9px;
+
+  /* Paddings */
+  --padding-14xl: 33px;
+  --padding-9xs: 4px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-xl: 20px;
+}
