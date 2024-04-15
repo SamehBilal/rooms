@@ -2465,7 +2465,7 @@ span[data-action-type="stats-graphs-details-container"]>span{
 	background-repeat: no-repeat;
 	background-size: 80px;
 	background-position: 50% 65%;
-	background-image: url("./media/visualization-2.png");
+	background-image: url("./media/visualization.png");
 }
 #container-2 {
 	background-repeat: no-repeat;
@@ -2479,7 +2479,7 @@ span[data-action-type="stats-graphs-details-container"]>span{
 	transition: background-image 0.3s ease-in-out;
 	-webkit-transition: background-image 0.3s ease-in-out;
 	background-position: 50% 65%;
-	background-image: url("./media/video-camera-2.png");
+	background-image: url("./media/video-camera.png");
 }
 #container-3a {
 	background-repeat: no-repeat;
@@ -5299,7 +5299,7 @@ input[type='checkbox'], input[type='radio'] {
 }
 
 .darktheme .card {
-	background-color: var(--discord-grey-7);
+	background-color: var(--body-dark-background-color);
 }
 
 .card {
@@ -5308,7 +5308,7 @@ input[type='checkbox'], input[type='radio'] {
 }
 
 .darktheme .container-inner {
-	background-color: var(--discord-grey-7);
+	background-color: var(--body-dark-background-color);
 }
 
 .container-inner {
