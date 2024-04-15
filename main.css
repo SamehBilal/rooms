@@ -9,7 +9,7 @@
 	--discord-grey-6: #383a40;
 	--discord-grey-7: #404249; /* primary */
 	--discord-grey-8: #5e6064;
-	--discord-blue-0: ##00caeb;
+	--discord-blue-0: #009ACD;
 
 	--discord-text: hsl( 210 calc(1 * 9.1%) 92% /1);
 
@@ -5299,15 +5299,16 @@ input[type='checkbox'], input[type='radio'] {
 }
 
 .darktheme .card {
-	background-color: var(--discord-blue-0);
+	background-color: var(--discord-grey-7);
 }
 
 .card {
 	background-color: var(--lighttheme-3);
+	border: 3px solid --discord-blue-0;
 }
 
 .darktheme .container-inner {
-	background-color: var(--discord-blue-0);
+	background-color: var(--discord-grey-7);
 }
 
 .container-inner {
