@@ -5304,7 +5304,7 @@ input[type='checkbox'], input[type='radio'] {
 
 .card {
 	background-color: var(--lighttheme-3);
-	border: 3px solid --discord-blue-0;
+	border: 3px solid var(--discord-blue-0);
 }
 
 .darktheme .container-inner {
