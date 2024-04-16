@@ -1447,6 +1447,10 @@ button.btnArmTransferRoom.selected{
 		max-width: 100%;
 		font-size: 80%;
 	}
+	#head4, #head1a, #head2, #head7, #head8, #head6,
+	#head1, #head5, #head3, #head3a, #header-image, #header{
+		text-align: center;
+	}
 }
 
 .shake {
