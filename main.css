@@ -3982,6 +3982,7 @@ div#roomnotes2 {
 }
 
 div#guestFeeds {
+	text-align: center;
 	background-color: var(--container-color);
 	padding: 5px 0 15px 20px;
 	display: inline-block;
