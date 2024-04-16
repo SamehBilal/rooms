@@ -1448,9 +1448,13 @@ button.btnArmTransferRoom.selected{
 		font-size: 80%;
 	}
 	#head4, #head1a, #head2, #head7, #head8, #head6,
-	#head1, #head5, #head3, #head3a, #header-image, #header{
+	#head1, #head5, #head3, #head3a, #header{
 		text-align: center;
-		float: none;
+	}
+
+	#header-image{
+		display: block!important;
+		float: unset!important;
 	}
 }
 
