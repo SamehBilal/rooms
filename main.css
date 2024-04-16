@@ -506,6 +506,7 @@ button.hint {
 	font-size: 90%;
 	line-height:100%;
 	margin-top:2px;
+	padding: 1.5em;
 }
 #head6 {
 	display: inline-block;
