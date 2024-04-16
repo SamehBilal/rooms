@@ -837,16 +837,20 @@ body.darktheme .credits>a:visited {
 	background: #BF3F3F !important;
 }
 #mainheader{
-	margin: 50px 50px;
+	margin: 0 0 50px;
 	text-align: center;
 	font-family: var(--font-cuprum);
 	font-weight: 700;
 	font-size: 64px;
 }
 #maindiv{
-	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
+#maindiv img{
+	height: 90px;
+}
 #mainmenu.row {
 	
 	text-align: center;
