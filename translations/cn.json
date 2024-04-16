@@ -500,7 +500,7 @@
     "enter-the-website-URL-you-wish-to-share": "输入要共享的 URL 网站。",
     "run-a-speed-test": "运行速度测试",
     "read-the-guides": "浏览指南",
-    "info-blob": "<h3>🛠 For support, see the <a href=\"https://www.reddit.com/r/VDONinja/\">sub-reddit <i class=\"lab la-reddit-alien\"></i></a> or join the <a href=\"https://discord.vdo.ninja/\">Discord <i class=\"lab la-discord\"></i></a>. The <a href=\"https://docs.vdo.ninja/\">documentation is here</a> and my personal email is <i>steve@seguin.email</i></h3>",
+    "info-blob": "\n<h2>LiveSync 是什么</h2>\n<br>\n<li>\n<a href='#'>LiveSync\n</a> 是一种实时的混合电竞AV和通讯解决方案，使得赛事组织者（TOs）能够捕获才华者的音频和视频流，并实时与他们分享高质量的流。利用WebRTC协议，我们确保才华者与实际游戏之间的延迟在500毫秒左右。此外，我们的系统在某些情况下可以利用其他实时传输协议（如RTMP、SRT、HLS等）。</li>\n<br>\n<li>我们的解决方案提供了通过内部开发的自适应媒体服务器分发任何信号的灵活性，完全控制才华者的情况，包括访问其硬件和连接状态。</li>\n<br>\n<li>此外，我们为在广播过程中与才华者进行交互提供了专门的通讯工具。这包括通过不向观众广播的私人音频通道直接与任何才华者进行互动的能力。这些安全通道使我们能够与才华者进行节目之外的对话，并为他们之间的协调或其他目的促进私人讨论，确保这些通信保持机密并与直播流分离。</li>\n<br>\n\n",
     "more-than-four-can-join": "这四个客人位置仅用于演示。一个房间可以容纳四位以上的客人。",
     "privacy-disabled": "隐私警告：如果您继续，房管将能够远程访问您的摄像头和麦克风。",
     "toggle-control-video": "切换控制栏",
