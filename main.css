@@ -846,6 +846,7 @@ body.darktheme .credits>a:visited {
 #maindiv{
 	display: flex;
 	justify-content: center;
+	margin-top: 50px;
 }
 
 #maindiv img{
