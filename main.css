@@ -916,7 +916,7 @@ hr {
 	overflow: hidden;
 	justify-items: stretch;
 	border: 0;
-	margin: 0;
+	margin-top: 30px;
 }
 #gridlayout{
 	z-index:-1;
@@ -3496,16 +3496,17 @@ label {
 }
 
 .hideLinksClass {
-	background-color: var(--container-color);
+	background-color: transparent;
 	padding: 10px;
 	margin: 5px 10px 10px 10px;
 	max-width:100%;
 }
 .directorContainer {
-	background-color: var(--container-color);
+	background-color: var(--body-dark-background-color);
 	margin: 10px 0px 10px 10px;
 	padding: 10px;
-	max-width: min(100%, 1191px);
+	max-width: min(100%);
+	border: 2px solid var(--discord-blue-0);
 }
 
 .director-container{
@@ -3516,9 +3517,9 @@ label {
 	cursor:pointer;
 }
 .directorContainer.half {
-	background-color: var(--container-color);
+	background-color: var(--body-dark-background-color);
 	padding: 10px 10px;
-	width: min(100%, 591px);
+	width: min(100%);
 }
 .directorBlock {
 	padding: 10px 10px 5px 10px;
