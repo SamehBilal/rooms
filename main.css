@@ -96,6 +96,7 @@
 	--full-screen-button: inherit;
 	--color-mode: light;
 	--video-background-image-size: auto 30%;
+	--font-cuprum: Cuprum;
 }
 @media (prefers-color-scheme: dark) {
 	:root {
@@ -838,6 +839,7 @@ body.darktheme .credits>a:visited {
 #mainheader{
 	margin-top: 10px;
 	text-align: center;
+	font-family: --font-cuprum;
 }
 
 #mainmenu.row {
