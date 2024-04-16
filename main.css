@@ -862,6 +862,12 @@ body.darktheme .credits>a:visited {
 	display: table;
 	clear: both;
 }
+#jumptoroomButton{
+	background-color: #00caeb;
+	color: white;
+	border-radius: 20px;
+
+}
 
 hr {
 	height: 2px;
