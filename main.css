@@ -3531,18 +3531,7 @@ label {
 	display:block;
 	min-height: 174px;
 }
-.directorBlock:nth-child(1) {
-	background-color: var(--blue-accent);
-}
-.directorBlock:nth-child(2) {
-	background-color: var(--green-accent);
-}
-.directorBlock:nth-child(3) {
-	background-color: var(--olive-accent);
-}
-.directorBlock:nth-child(4) {
-	background-color: var(--red-accent);
-}
+
 .directorBlock button {
 	margin: 10px;
 	box-shadow: unset;
