@@ -5121,7 +5121,7 @@ body.darktheme .column>h2{
 	color: white;
 }
 body.darktheme .directorsgrid .vidcon > .las {
-	background-color: #0F131D;
+	background-color: var(--discord-grey-5);
 }
 body.darktheme h2 {
 	color: #DDD;
