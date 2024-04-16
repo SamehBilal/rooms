@@ -3978,14 +3978,13 @@ div#roomnotes2 {
 }
 
 .darktheme div#guestFeeds {
-	background-color: var(--container-color)
+	background-color: transparent
 }
 
 div#guestFeeds {
 	text-align: center;
-	background-color: var(--container-color);
+	background-color: transparent;
 	padding: 5px 0 15px 20px;
-	display: inline-block;
 	margin: 0px var(--regular-margin) 80px var(--regular-margin);
 }
 
