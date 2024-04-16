@@ -862,14 +862,22 @@ body.darktheme .credits>a:visited {
 	display: table;
 	clear: both;
 }
-
+.main-div{
+	display: flex;
+	justify-content: center;
+}
 .frame-item{
 	width: 24.8px;
     height: 2px;
     border-radius: 20px;
     background-color: var(--discord-blue-0);
 }
-
+.cloud-sync-icon{
+	padding: 2em;
+}
+.rectangle-wrapper{
+	padding: 2em;
+}
 .cloud-sync-icon-child{
 	width: 24.8px;
     height: 2px;
