@@ -940,9 +940,10 @@ hr {
 .directorsgrid .vidcon {
 	display: inline-block;
 	width: 269.7px!important;
-	background: var(--lighttheme-7);
-	color: var(--lighttheme-text);
+	background: var(--body-dark-background-color);
+	color: white;
 	vertical-align: top;
+	border: 2px solid var(--discord-blue-0);
 }
 
 .directorsgrid .vidcon>.las {
@@ -3985,7 +3986,7 @@ div#guestFeeds {
 	text-align: center;
 	background-color: transparent;
 	padding: 5px 0 15px 20px;
-	margin: 0px var(--regular-margin) 80px var(--regular-margin);
+	margin: 30px var(--regular-margin) 80px var(--regular-margin);
 }
 
 div#guestFeeds:empty {
@@ -5141,7 +5142,7 @@ body.darktheme .avatarLabel {
 	color: #f8f7f7;
 }
 body.darktheme .directorsgrid .vidcon {
-	background-color: var(--discord-grey-3);
+	background-color: var(--body-dark-background-color);
 }
 body.darktheme .promptModal {
 	background-color: var(--discord-grey-5);
