@@ -5109,7 +5109,7 @@ body.darktheme .column>h2{
 	color: white;
 }
 body.darktheme .directorsgrid .vidcon > .las {
-	background-color: var(--body-dark-background-color);
+	background-color: #0F131D;
 }
 body.darktheme h2 {
 	color: #DDD;
