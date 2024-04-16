@@ -21,15 +21,15 @@
 	--darktheme-yellow: rgb(84, 70, 9);
 
 	/* Lightmode white - Darker to lighter */
-	--lighttheme-1: #fff;
-	--lighttheme-2: #f3f3f3;
-	--lighttheme-3: #ddd;
-	--lighttheme-4: #ccc; /* primary */
-	--lighttheme-5: #bbb;
-	--lighttheme-6: #aaa;
-	--lighttheme-7: #7e7e7e;
-	--lighttheme-8: #373737;
-	--lighttheme-text: black;
+	--lighttheme-1: #121212;
+	--lighttheme-2: #1e1f22;
+	--lighttheme-3: #404249;
+	--lighttheme-4: #404249; /* primary */
+	--lighttheme-5: #2e3035;
+	--lighttheme-6: #313338;
+	--lighttheme-7: #404249;
+	--lighttheme-8: #5e6064;
+	--lighttheme-text: white;
 
 	/* Director v2 - General colors */
 	/* -- Links */
