@@ -839,7 +839,7 @@ body.darktheme .credits>a:visited {
 #mainheader{
 	margin: 50px 50px;
 	text-align: center;
-	font-family: --font-cuprum;
+	font-family: var(--font-cuprum);
 	font-weight: 700;
 	font-size: 64px;
 }
