@@ -478,7 +478,7 @@ button.hint {
 #header {
 	width: 100%;
 	padding: 1px;
-	background-color: transparent;
+	background-color: #0F131D;
 	color: #FFF;
 	-webkit-app-region: drag;
 }
