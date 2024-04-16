@@ -1447,6 +1447,12 @@ button.btnArmTransferRoom.selected{
 		margin-right: 1px;
 	}
 }
+@media only screen and (max-width: 1024px){
+	.director-container{
+		display: inline-block!important;
+	}
+}
+
 @media only screen and (max-width: 480px){
 	#guestTips{
 		max-width: 100%;
@@ -1462,6 +1468,8 @@ button.btnArmTransferRoom.selected{
 		float: unset!important;
 	}
 }
+
+
 
 .shake {
 	animation: shake 0.5s;
