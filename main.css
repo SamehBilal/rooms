@@ -4004,7 +4004,6 @@ div#roomnotes2 {
 }
 
 div#guestFeeds {
-	text-align: center;
 	background-color: transparent;
 	padding: 5px 0 15px 20px;
 	margin: 30px var(--regular-margin) 80px var(--regular-margin);
