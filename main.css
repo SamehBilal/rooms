@@ -947,7 +947,7 @@ hr {
 }
 
 .directorsgrid .vidcon>.las {
-	color: black;
+	color: white;
 	background: #999999;
 	width: 90%;
 }
@@ -5109,7 +5109,7 @@ body.darktheme .column>h2{
 	color: white;
 }
 body.darktheme .directorsgrid .vidcon > .las {
-	background-color: #424242;
+	background-color: var(--body-dark-background-color);
 }
 body.darktheme h2 {
 	color: #DDD;
