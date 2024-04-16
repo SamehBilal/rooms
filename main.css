@@ -3580,7 +3580,7 @@ a.task {
 	margin-left: 7px;
 }
 div#roomnotes2 {
-	background: var(--container-color);
+	background: transparent;
 	padding: 10px !important;
 	margin: 0 var(--regular-margin) 10px var(--regular-margin);
 	width: 100%;
@@ -4473,11 +4473,11 @@ div.message-card.info:before {
 }
 
 input:checked + .slider {
-	background-color: #86b98f;
+	background-color: var(--discord-blue-0);
 }
 
 input:focus + .slider {
-	box-shadow: 0 0 1px #86b98f;
+	box-shadow: 0 0 1px var(--discord-blue-0);
 }
 
 input:checked + .slider:before {
