@@ -1467,6 +1467,10 @@ button.btnArmTransferRoom.selected{
 		display: block!important;
 		float: unset!important;
 	}
+
+	.director-container{
+		display: inline-block!important;
+	}
 }
 
 
