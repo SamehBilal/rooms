@@ -106,7 +106,10 @@
 			 <div id="header-image" style="float: right;">
       				<img src="./media/aaaesme.png" alt="esmelogo" style="height: 60px; width: auto;"> </div>
 
-			
+			<div id="head1">
+				<input type="text" autocorrect="off" autocapitalize="none" id="joinroomID" name="joinroomID" tabindex="1" size="22" placeholder="Join by Room Name here" alt="Enter a room name to join" title="Enter a room name to quick join" onkeyup="jumptoroom(event)"/>
+				<button onclick="jumptoroom();" id='jumptoroomButton' role="button" aria-pressed="false" tabindex="1" alt="Join room" title="Join room" >GO</button>
+			</div>
 			<div id="head1a" class="hidden">
 				<input type="text" autocorrect="off" autocapitalize="none" id="joinbyURL" name="joinbyURL" size="22" placeholder="Load a website URL" alt="Enter the URL to load" title="Enter the URL to load"/>
 				<button onclick="jumptoURL(event)"  role="button" aria-pressed="false" alt="Load URL" title="Load URL" >Load URL</button>
@@ -146,12 +149,7 @@
 			<div id="head7" class="hidden" data-translate="director-muted-you">The director has muted you.</div>
 			<div id="head8" class="hidden" data-translate="director-video-muted-you">The director has disabled your camera temporarily.</div>
 		</div>
-		<div id="head1">
-			<input type="text" autocorrect="off" autocapitalize="none" id="joinroomID" name="joinroomID" tabindex="1" size="22" placeholder="Join by Room Name here" alt="Enter a room name to join" title="Enter a room name to quick join" onkeyup="jumptoroom(event)"/>
-			<button onclick="jumptoroom();" id='jumptoroomButton' role="button" aria-pressed="false" tabindex="1" alt="Join room" title="Join room" >GO</button>
-		</div>
 		 <div id="obsState" class="hidden" >ACTIVE</div>
-		 
 		<div id="controlButtons" class="hidden">
             <div class="controlPositioning">
                 <div id="chatModule" class="hidden">
@@ -299,6 +297,7 @@
 				<i style="cursor: pointer;  color: #d9e4eb; padding: 2px; margin: 2px 2px 0 0; font-size: 140%;" class="las la-calendar" aria-hidden="true"></i>
 			</span>
 		</span>
+		<h1 id="mainheader">LiveSync</h1>
 		<div id="mainmenu" class="row" style="opacity: 0;">
 			<div id="container-1" title="Add Group Chat to OBS"  alt="Add Group Chat to OBS" tabindex="1" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);" class="column columnfade pointer rounded card" style=" overflow-y: auto;">
 				
@@ -673,9 +672,9 @@
 			<form method="post" onsubmit="setFormSubmitting()" style="display: none;" aria-hidden="true">
 				<input type="submit" />
 			</form>
-			<!-- <div id="credits" class="credits" aria-hidden="true">
+			<div id="credits" class="credits" aria-hidden="true">
 				<a href='https://github.com/steveseguin/vdoninja' aria-hidden="true">VDO.Ninja, by Steve Seguin</a> 
-			</div> -->
+			</div>
 		</div>
 		<div id="directorlayout" class="hidden directorsgrid">
 			<div id="roomHeader" style="display:none">
