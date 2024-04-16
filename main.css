@@ -288,6 +288,9 @@ th {
 	height: 400px;
 	border: 1px solid lightgray;
 }
+#head4{
+	padding: 1.5em 0em;
+}
 
 .email {
 	unicode-bidi: bidi-override;
@@ -3494,7 +3497,6 @@ label {
 
 .hideLinksClass {
 	background-color: var(--container-color);
-	width:1191px;
 	padding: 10px;
 	margin: 5px 10px 10px 10px;
 	max-width:100%;
@@ -3504,6 +3506,10 @@ label {
 	margin: 10px 0px 10px 10px;
 	padding: 10px;
 	max-width: min(100%, 1191px);
+}
+
+.director-container{
+	display: flex;
 }
 
 #directorLinksButton{
